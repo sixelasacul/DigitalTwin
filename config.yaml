@@ -1,0 +1,18 @@
+modbus:
+  function_code: 0x10
+  slave_id: 0x01
+  registers_starting_address: 17
+  registers_number: 4
+  host: "127.0.0.1"
+  port: 5007
+  interval: 5
+mqtt:
+  host: "secret"
+  port: 0
+  client_id: "secret"
+  username: "secret"
+  password: "secret"
+  keep_alive: 120
+  table: "temperature"
+  publish: true
+db: "dtdb"
