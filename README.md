@@ -11,6 +11,8 @@ Après avoir cloné le projet, il faut :
 - Installer les packages depuis le fichier requirements.txt : `pip install -r requirements.txt`
 - Vérifier les packages installés : `pip list`
 
+Le fichier de configuration `config.yaml` pour la connexion avec MQTT et Modbus.
+
 ## Démarrage
 
 Il faut lancer le serveur/esclave en premier. Il simule des capteurs de température en retournant des informations de la base de données (`dtdb`) toutes les 5 secondes.
